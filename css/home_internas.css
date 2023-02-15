@@ -1,0 +1,358 @@
+.slider{
+	margin: 40px;
+}
+#wrapper{
+	background-image:url(../imagens/sombra_slider.png);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+}
+.boxes{
+	width:62%;
+}
+.boxes.contato{
+	width:100%;
+}
+.boxes_wrap{
+	margin-left:20px;
+}
+.boxes_wrap.txt, .boxes_wrap .txt{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#493427;
+	font-size:16px;
+	line-height:18px;	
+	margin-left:20px;
+	padding-top:20px;
+}
+.boxes_wrap.txt ul{
+	margin-left:15px;
+}
+.boxes_wrap.txt ul li{
+	list-style-image:url(../imagens/icon_arrow.png);
+}
+.boxes_tit{
+	background-image:url(../imagens/icon_seta.png);
+	background-repeat:no-repeat;
+	font-family:'regular', Tahoma, Geneva, sans-serif;
+	color:#231f20;
+	min-height:42px;
+	font-size:36px;
+	padding-left:63px;
+	padding-top:4px;
+}
+
+
+.andaime{
+	margin-top: 50px;
+}
+
+.zap{
+	    width: 3%;
+    float: right;
+     margin-right: 10px;
+}
+
+.zapp{
+	    width: 2%;
+
+     margin-right: 10px;
+}
+
+.endd{
+	margin-right: 30px;
+}
+
+.zap2{
+	    width: 20%;
+    float: right;
+     margin-right: 25px;
+     margin-top: 25px;
+}
+.set_bottom{
+	margin-top:15px;
+}
+.box{
+	width:200px;
+	height:350px;
+	background-repeat:no-repeat;
+	text-align:center;
+	position:relative;
+	cursor:pointer;
+}
+
+.box_content_wrap{
+	position:absolute;
+	bottom:0;
+	margin-bottom:10px;	
+}
+.box_content_wrap_bottom{
+	position:absolute;
+	top:0;
+	margin-top:20px;	
+}
+.box.top{
+	background-image:url(../imagens/bg_box1.png);
+	background-position:bottom center;
+	height:310px;	
+}
+.box.top:hover{
+	background-image:url(../imagens/bg_box1_over.png);
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+  	-moz-transition: all 0.5s ease; /* Firefox */
+  	-o-transition: all 0.5s ease; /* IE 9 */
+  	-ms-transition: all 0.5s ease; /* Opera */
+  	transition: all 0.5s ease;		
+}
+.box.bottom{
+	background-image:url(../imagens/bg_box2.png);
+	background-position:top center;
+}
+.box.bottom:hover{
+	background-image:url(../imagens/bg_box2_over.png);
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+  	-moz-transition: all 0.5s ease; /* Firefox */
+  	-o-transition: all 0.5s ease; /* IE 9 */
+  	-ms-transition: all 0.5s ease; /* Opera */
+  	transition: all 0.5s ease;		
+}
+.box .tit{
+	font-family:'extrabold', Tahoma, Geneva, sans-serif;
+	color:#231f20;
+	font-size:24px;
+	line-height:24px;
+	letter-spacing:-1px;
+	text-transform:uppercase;
+	display:block;
+	padding-top:20px;
+	padding-left:23px;
+	padding-right:23px;	
+}
+.box .descr{
+	font-family:'regular', Tahoma, Geneva, sans-serif;
+	color:#493427;
+	font-size:14px;
+	line-height:12px;
+	display:block;
+	padding-top:5px;
+	padding-left:23px;
+	padding-right:23px;
+}
+.boxes_laterais{
+	width:32%;
+	margin-right:20px;
+	margin-top:40px;
+}
+
+.box_conheca{
+	background-image:url(../imagens/icon_engrenagem.png);
+	background-repeat:no-repeat;
+	border:1px solid #dca210;
+	background-position:24px 21px;
+	padding-left:25px;
+	padding-top:26px;
+}
+.box_conheca.produtos{
+	background-image:url(../imagens/icon_produtos.png);	
+}
+.box_conheca.produtos a.produtos, .box_conheca.produtos img{
+	width:100%;
+	height:auto;
+}
+.box_orcamento{
+	background-image:url(../imagens/icon_baloes.png);
+	background-repeat:no-repeat;	
+	background-color:#ebaa05;
+	background-position:24px 21px;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:26px;	
+	margin-top:35px;
+}
+
+.box_conheca .tit, .box_orcamento .tit{
+	font-family:'regular', Tahoma, Geneva, sans-serif;
+	color:#231f20;
+	font-size:40px;
+	line-height:40px;
+	letter-spacing:-1px;
+	padding-bottom:15px;
+	display:block;
+	text-transform:uppercase;
+	padding-left:65px;
+}
+.box_conheca .descr, .box_orcamento .descr{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#493427;
+	font-size:14px;	
+	line-height:16px;
+	padding-bottom:37px;
+	padding-right:25px;
+	display:block;
+}
+.box_orcamento .descr{
+	padding-bottom:15px;
+}
+.box_orcamento .botao{
+	margin-top:15px;
+}
+.empresa_img{
+	width:100%;
+	height:auto;
+}
+.box_wrap_empresa_img{
+	margin-top:40px;
+}
+
+.box_empresa_img_legenda{
+	background-color:#000; 
+	font-family:'bold'; 
+	font-size:14px; 
+	line-height:14px;
+	color:#f6c738; 
+	background-image:url(../imagens/icon_arrow2.gif); 
+	background-repeat:no-repeat; 
+	background-position:98% 50%; 
+	padding-right:30px; 
+	padding-left:10px; 
+	text-transform:uppercase;
+	padding-top:7px;
+	padding-bottom:7px;
+	bottom:0;
+	right:0;
+	cursor:pointer;
+}
+.produtos.beneficios .empresa_img{
+	margin-top:20px;
+}
+/*................................................................................. PRODUTOS */
+
+
+.boxes.produtos{
+	width:51.34%;	
+}
+.boxes.produtos img{
+	width:100%;
+	height:auto;
+}
+.principal.produtos{
+	padding-top:30px;	
+}
+.boxes_laterais.produtos .boxes_tit, .principal.produtos .boxes_tit{
+	font-family:'extrabold', Tahoma, Geneva, sans-serif;	
+}
+.boxes_laterais.produtos{
+	width:45%;
+}
+.boxes_laterais.produtos .produtos_descr{
+	padding-right:25px;
+}
+.boxes_laterais.produtos .box_orcamento{
+	width:420px;
+	margin:75px;
+}
+.produtos_descr{
+	font-family:'light', Tahoma, Geneva, sans-serif;	
+	color:#493427;
+	font-size:24px;
+	line-height:24px;
+	display:block;
+	margin-top:20px;
+	padding-bottom:50px;
+}
+.botao_voltar_produtos{
+	font-family:'bold', Tahoma, Geneva, sans-serif;	
+	color:#593f1e;
+	font-size:14px;
+	line-height:14px;
+	border:1px solid #dba60d;
+	background-image:url(../imagens/icon_voltar.gif);
+	background-repeat:no-repeat;
+	background-position:10px 50%;
+	padding:5px 10px 3px 37px;	
+	text-decoration:none;
+	text-transform:uppercase;
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+  	-moz-transition: all 0.5s ease; /* Firefox */
+  	-o-transition: all 0.5s ease; /* IE 9 */
+  	-ms-transition: all 0.5s ease; /* Opera */
+  	transition: all 0.5s ease;	
+	
+}
+.botao_voltar_produtos:hover{
+	background-color:#f9dc80;
+	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
+  	-moz-transition: all 0.5s ease; /* Firefox */
+  	-o-transition: all 0.5s ease; /* IE 9 */
+  	-ms-transition: all 0.5s ease; /* Opera */
+  	transition: all 0.5s ease;	
+	
+}
+
+/*................................................................................. CONTATO */
+
+.contato{
+	width:49%;
+}
+
+.campo_contato
+{
+	font-family:'regular', Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    width: 100%;
+	height:53px;
+	padding:0 15px 0 15px;
+    background-color: #f5dfa6;
+	border:0;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    color: #6a5319;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px #c38704;		
+	-webkit-box-shadow: 2px 2px 3px #c38704;		
+	box-shadow: 2px 2px 3px #c38704;
+	transition-duration:0.3s;
+	-moz-transition-duration:0.3s;
+	-webkit-transition-duration:0.3s;
+	-o-transition-duration:0.3s;
+	text-decoration:none;			
+
+	/* For IE 8 */		
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#c38704')";		
+
+	/* For IE 5.5 - 7 */		
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#c38704');	
+}
+
+.campo_contato:focus {
+	background-color:#f8f8f8;
+	-moz-box-shadow: 2px 2px 3px #c38704;		
+	-webkit-box-shadow: 2px 2px 3px #c38704;		
+	box-shadow: 2px 2px 3px #c38704;		
+
+	/* For IE 8 */		
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#c38704')";		
+
+	/* For IE 5.5 - 7 */		
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#c38704');
+}
+.multi{
+	height:100px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.boxes.contato .multi{
+	height:240px;
+}
+
+.iframe_contato{
+	width:100%; 
+	height:450px;
+}
+.principal.produtos 	.boxes_wrap.txt{
+		margin-right:20px;
+
+	}

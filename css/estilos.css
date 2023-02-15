@@ -1,0 +1,274 @@
+﻿body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../imagens/bg.jpg);
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-color:#f3b51a;
+	font-family:'light', Tahoma, Geneva, sans-serif;
+	font-size:24px;
+	color:#493427;
+}
+.link{
+	background-color:#231f21;
+	color:#fad64e;
+	padding-left:5px;
+	padding-right:3px;
+	text-decoration:none;
+	line-height:20px;
+}
+.link:hover{
+	color:#fff;
+}
+.padding30{
+	padding:30px;
+}
+.divisoria{
+	height:10px;
+	border-top:1px solid #e9e9e9;
+	display:block;
+}
+.principal{
+	width:1330px;
+	margin:0 auto;
+	padding-bottom:85px;
+}
+.principal.beneficios{
+	padding-bottom:0;
+}
+
+.hhome{
+	margin-left: 49%!important;
+}
+
+.line_one{
+	width: 100%;
+	background-color: red;
+}
+
+.botao
+{
+    font-family:'bold', Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    color: #f5be28;
+    padding: 11px 0 11px 0;
+	background-color:#231f21;
+	width:190px;
+	-webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0;
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+.botao.form{
+    padding: 7px 0 7px 0;	
+}
+.botao:hover{
+	color:#000;
+	background-color:#ffd733;
+	-webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+/*................................................................................. FX */
+
+
+.highlight{
+
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+cursor:pointer;
+
+}
+
+.highlight:hover{
+
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+-moz-opacity: 0.9;
+opacity: 0.9;
+
+
+}
+
+.shadow {	
+-moz-box-shadow: 3px 3px 4px #999999;		
+-webkit-box-shadow: 3px 3px 4px #999999;		
+box-shadow: 3px 3px 4px #999999;		
+
+/* For IE 8 */		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";		
+
+/* For IE 5.5 - 7 */		
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');	}
+
+
+/*................................................................................. FONTES */
+
+
+.book{
+	font-family:'book', Tahoma, Geneva, sans-serif;
+}
+.regular{
+	font-family:'regular', Tahoma, Geneva, sans-serif;
+}
+.light{
+	font-family:'light', Tahoma, Geneva, sans-serif;
+}
+.bold{
+	font-family:'bold', Tahoma, Geneva, sans-serif;
+}
+.extrabold{
+	font-family:'extrabold', Tahoma, Geneva, sans-serif;
+}
+
+
+.blue{
+	color:#00427a;
+}
+.blue2{
+	color:#56667e;
+}
+.blue3{
+	color:#7a97bb;
+}
+.beige{
+	color:#b8995d;
+}
+.white{
+	color:#ffffff;
+}
+.grey{
+	color:#363a40;
+}
+.black{
+	color:#231f20;
+}
+.size8{
+	font-size:8px;
+	line-height:10px;
+}
+.size9{
+	font-size:9px;
+	line-height:11px;
+}
+.size10{
+	font-size:10px;
+	line-height:12px;
+}
+.size11{
+	font-size:11px;
+	line-height:13px;
+}
+.size12{
+	font-size:12px;
+	line-height:14px;
+}
+.size13{
+	font-size:13px;
+	line-height:15px;	
+}
+.size14{
+	font-size:14px;
+	line-height:16px;	
+}
+.size16{
+	font-size:16px;
+	line-height:18px;
+}
+.size17{
+	font-size:17px;
+	line-height:19px;
+}
+.size18{
+	font-size:18px;
+	line-height:20px;
+}
+.size20{
+	font-size:20px;
+	line-height:22px;
+}
+.size22{
+	font-size:22px;
+	line-height:24px;
+}
+.size24{
+	font-size:24px;
+	line-height:26px;
+}
+.size30{
+	font-size:30px;
+	line-height:32px;
+}
+.size36{
+	font-size:36px;
+	line-height:38px;
+}
+
+.weightbold{
+	font-weight:bold;
+}
+.uppercase{
+	text-transform:uppercase;
+}
+.letter-1{
+	letter-spacing:-1px;
+}
+
+/*................................................................................. GERAL */
+
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.center{
+	margin:0 auto;
+}
+.clear {
+	clear: both;
+}
+.clearleft{
+	clear: right
+}
+.clearight{
+	clear:right
+}
+.block{
+	display:block;
+}
+.relative{
+	position:relative;
+}
+.absolute{
+	position:absolute;	
+}
+a, span {
+	display:inline-block;
+}
+p {
+	margin:0;
+}
+img { 
+	display: inline-block;
+	vertical-align: top;
+	border: 0;
+}
+
+iframe {
+	border: 0;
+	display: block;
+}
